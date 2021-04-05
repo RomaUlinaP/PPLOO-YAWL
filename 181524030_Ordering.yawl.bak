@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specificationSet xmlns="http://www.yawlfoundation.org/yawlschema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.0" xsi:schemaLocation="http://www.yawlfoundation.org/yawlschema http://www.yawlfoundation.org/yawlschema/YAWL_Schema4.0.xsd">
+  <specification uri="_181524030_Ordering">
+    <documentation>No description provided</documentation>
+    <metaData>
+      <creator>ulina</creator>
+      <description>No description provided</description>
+      <coverage>4.3.1.769</coverage>
+      <version>0.2</version>
+      <persistent>false</persistent>
+      <identifier>UID_c68e8f46-0b21-47bf-9f37-be054eb7a6ee</identifier>
+    </metaData>
+    <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" />
+    <decomposition id="Net" isRootNet="true" xsi:type="NetFactsType">
+      <processControlElements>
+        <inputCondition id="InputCondition" />
+        <outputCondition id="OutputCondition" />
+      </processControlElements>
+    </decomposition>
+  </specification>
+  <layout>
+    <locale language="en" country="US"/>
+    <specification id="_181524030_Ordering">
+      <size w="799" h="642"/>
+      <net id="Net">
+        <bounds x="0" y="0" w="1043" h="419"/>
+        <frame x="0" y="0" w="1046" h="422"/>
+        <viewport x="0" y="0" w="1046" h="422"/>
+        <vertex id="OutputCondition">
+          <attributes>
+            <bounds x="972" y="264" w="32" h="32"/>
+          </attributes>
+        </vertex>
+        <vertex id="InputCondition">
+          <attributes>
+            <bounds x="36" y="264" w="32" h="32"/>
+          </attributes>
+        </vertex>
+      </net>
+    </specification>
+  </layout>
+</specificationSet>
